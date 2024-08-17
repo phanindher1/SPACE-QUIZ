@@ -1,0 +1,82 @@
+<!DOCTYPE html> 
+
+<html lang="en-us"> 
+
+    <head>  
+
+        <meta charset="UTF-8" />  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="./style.css" >
+
+        <title>Code Quiz</title> 
+    </head> 
+    <body>
+
+    <header> 
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            
+                <a class="nav-link text-primary" id = "navhighscorelink" >High Scores</a>
+
+                <span class="ml-auto" id="timer"></span>
+        </nav>
+    </header> 
+    <main>
+          
+        <br>
+        <br>
+        <div class="container">
+            <div class="card shadow rounded border-info"> 
+                <div class="card-body">
+                    <h2 class="card-title mb-4 text-info text-center" id="title">Space Quiz</h2>
+            
+                    <hr class="line">
+                    
+                    <div class="row">
+                        
+                        <div class="col-md-1">
+                        </div>
+
+                        <div class="col-md-10">
+                            
+                            <div id="mainContent">
+                                
+                                <h5 class="text-center">
+                                    Answer the following space questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!  
+                                </h5>
+                                
+                                <div class="text-center">
+                                    <button type="submit" id="startQuiz" class="btn bg-primary text-white rounded-pill mb-2">Start Quiz</button>
+                                </div>
+
+                            </div>
+
+                            <div id = "quizContent"></div>
+                            <div id = "score"></div>
+                            <div id = "highscores"> </div>
+                        
+                        </div>
+                    </div>
+                                      
+                    <div id="answer">
+                         <hr class="line">
+                    </div>    
+
+                </div>
+            </div>               
+        
+        </div>
+        <br>
+    </main>
+
+    <script src="./js/questions.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/jquery.js"></script>
+        
+    <script src="./js/popper.js"></script>
+
+    <script src="./js/bootstrap.js"></script>
+
+    </body>
+    
+</html>
